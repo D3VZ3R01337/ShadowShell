@@ -65,8 +65,8 @@ docs/                   # Documentation
 
 ### Network Settings
 ```cpp
-std::string ip = "192.168.1.100";  // Your IP
-int port = 44895;                  // Your port
+std::string ip = "192.168.0.1";  // Your IP
+int port = 4444;                  // Your port
 ```
 
 ### Features
@@ -124,5 +124,6 @@ Ninja-DLL-Loader.exe Ninja-Stealth-DLL.dll
 - Review compilation commands above
 
 ---
+
 
 *Keep this card handy for quick deployment!* 🥷
