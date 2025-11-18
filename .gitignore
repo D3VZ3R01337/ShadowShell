@@ -1,0 +1,74 @@
+# C++ build artifacts
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.lo
+*.la
+*.al
+.libs
+
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# MinGW/MSYS files
+*.d
+*.res
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled binaries (but keep the bin directory structure)
+bin/*.exe
+bin/*.dll
+
+# Packages
+*.zip
+*.7z
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Core dumps
+core
+core.*
+
+# Dependencies
+packages/
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
